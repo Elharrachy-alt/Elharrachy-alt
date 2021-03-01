@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="Acceuil.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $(".SlideMenu1_Folder a").click(function()
+   {
+      var $popup = $(this).parent().find('ul');
+      if ($popup.is(':hidden'))
+      {
+         $popup.show();
+         $popup.attr('aria-expanded', 'true');
+      }
+      else
+      {
+         $popup.hide();
+         $popup.attr('aria-expanded', 'false');
+      }
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:208px;top:2px;width:832px;height:287px;z-index:0;">
+<img src="images/dasani-in-the-uk-1589976925.jpg" id="Image1" alt=""></div>
+<div id="SlideMenu1" style="position:absolute;left:105px;top:312px;width:103px;height:174px;z-index:1;">
+<ul role="menu">
+   <li class="SlideMenu1_Folder" aria-haspopup="true"><a>Acceuil</a>
+      <ul role="menu" aria-expanded="true">
+         <li><a role="menuitem" href="./Notre-seciete.html">Notre societe</a></li>
+         <li><a role="menuitem" href="./Notre-historique.html">Notre historique</a></li>
+         <li><a role="menuitem" href="./Nos-sites.html">Nos sites</a></li>
+         <li><a role="menuitem" href="">Direction</a></li>
+         <li><a role="menuitem" href="./Notre-culture.html">Notre culture</a></li>
+         <li><a role="menuitem" href="">Telechargement</a></li>
+      </ul>
+   </li>
+</ul>
+</div>
+<div id="wb_Text1" style="position:absolute;left:208px;top:302px;width:261px;height:18px;z-index:2;">
+<span style="color:#000000;font-family:Georgia;font-size:24px;"><strong>A propos de Lenovo</strong></span></div>
+<div id="wb_Text2" style="position:absolute;left:225px;top:337px;width:784px;height:89px;z-index:3;">
+<span style="color:#000000;font-family:Arial;font-size:16px;">Le ThinkPad® T460p combine des capacités informatiques de niveau professionnel à une robustesse<br>confirmée par des tests rigoureux (norme MIL-SPEC), offrant ainsi le summum de la fiabilité.<br>Son processeur Intel® de 6e<br> génération à tension standard assure des performances de pointe, tandis<br>que son circuit graphique indépendant gère sans problème les applications les plus exigeantes.<br>Complété par une connectivité améliorée, des solutions de station d'accueil étendues, le T460p redéfinit<br>véritablement les performances des portables d'entreprise, sans faire aucun compromis sur la mobilité.</span></div>
+</body>
+</html>
